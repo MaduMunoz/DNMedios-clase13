@@ -1,22 +1,23 @@
 [
-  {
-		"nombre": "Láminas exámen",
-		"img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-02.png"],
-		"soporte": "informacion"
-	},
-	{
-		"nombre": "Conference of Youth 15 | COY15",
-		"img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-03.png"],
-		"soporte": "marca"
-	},
-	{
-		"nombre": "Afiches universitarios",
-		"img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-01.png"],
-		"soporte": "editorial"
-	},
-	{
-		"nombre": "GudFud",
-		"img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-04.png"],
-		"soporte": "grafico"
-	}
+    {
+        "nombre": "Láminas exámen",
+        "img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-02.png"],
+        "soporte": "informacion"
+    },
+    {
+        "nombre": "Conference of Youth 15 | COY15",
+        "img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-03.png"],
+        "soporte": "marca"
+    },
+    {
+        "nombre": "Afiches universitarios",
+        "img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-01.png"],
+        "soporte": "editorial"
+    },
+    {
+        "nombre": "GudFud",
+        "img": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-04.png"],
+        "soporte": "grafico"
+    }
 ]
+
