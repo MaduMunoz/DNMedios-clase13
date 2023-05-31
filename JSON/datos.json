@@ -1,28 +1,28 @@
 [
     {
         "nombre": "Láminas exámen",
-        "fotos": ["img/lamina1.png", "img/lamina2.png", "img/lamina3.png"],
+        "fotos": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-02.png"],
         "soporte": "informacion",
         "abstract": "Lámina para los examenes de los proyectos Cubo y Nimbus | Taller de Identidad y Taller Producto, primer y segundo semestre 2019",
         "texto": "Lámina para el examen del proyecto Cubo, que consistía en un kit creativo para usuarios que crearan material audiovisual (cine) de forma casera. El objetivo del proyecto era entregar herramientas simples que pudieran ser utilizadas con objetos cotidianos simples que los usuarios encontraran en sus casas, para lograr interesantes efectos audiovisuales. Por otro lado, lámina para el examen del proyecto Nimbus, una linea de helados aromáticos inspirados en las nubes, desarrollada como una propuesta para la marca Savory."
     },
     {
         "nombre": "Conference of Youth 15 | COY15",
-        "fotos": ["img/coy1.png", "img/coy2.png", "img/coy3.png"],
+        "fotos": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-03.png"],
         "soporte": "marca",
         "abstract": "Desarrollo de los lineamientos gráficos e imagen de la Conferencia de la Juventus 15 | 2019",
         "texto": "Desarrollo gráfico para la Conferencia de la Juventud 15, llevada a cabo durante los últimos días de diciembre en Madrid (inicialmente iba a realizarse en Chile pero no fue posible debido al estallido social). Se buscó una imagen que conversara correctamente con la COP25, pero manifestara la preocupación de las voces jovenes con respecto a la crisis climática."
     },
     {
         "nombre": "Afiches universitarios",
-        "fotos": ["img/afiche1.png", "img/afiche2.png", "img/afiche3.png"],
+        "fotos": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-01.png"],
         "soporte": "editorial",
         "abstract": "Afiches para ramos universitarios varios | Primer semestre 2021",
         "texto": "Afiches varios para distintos proyectos. En primer lugar, afiche tipográfico desarrollado entorno a un manifiesto de la juventud sobre la crisis climática. Luego afiche realizado para el cortometraje 'La caja de mis memorias', que busca concientizar sobre la vulneración de la infancia. Finalmente un afiche inspirado en el estilo gráfico de Valentina Kulagina sobre el sobregiro ecológico."
     },
     {
         "nombre": "GudFud",
-        "fotos": ["img/gudfud1.png", "img/gudfud2.png", "img/gudfud3.png"],
+        "fotos": ["https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/JSON/imagenes-04.png"],
         "soporte": "grafico",
         "abstract": "Desarrollo de un emprendimiento ficticio | Desafío para la creación de empresas, primer semestre 2021",
         "texto": "Proyecto en torno al desarrollo del emprendimiento GudFud, empresa que se dedicaría a la producción de cajas con ingredientes pre-medidos para la cantidad de consumidores y personalizados según las preferencias de los clientes. Esto con el objetivo de reducir la cantidad de sobras que se botan a la basura y facilitar el proceso de preparación de la comida."
