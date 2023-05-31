@@ -19,6 +19,8 @@
         <style>
             :root { /*hacer un cambio en la "raiz"*/
                 --bs-body-font-family: 'Alegreya Sans', sans-serif;
+                --bs-link-color: #92A675;
+                --bs-link-hover-color: #92A675;
             }
             #foto {
                 background: transparent url("https://picsum.photos/id/152/800/600?blur=5") 0 0 no-repeat;
@@ -100,7 +102,7 @@
                     <h3 class="mb-0 text-black">Portfolio</h3>
                     <h2 class="mb-5">Algunos proyectos:</h2>
                 </div>
-                <div class="row gx-0" id="usuario">
+                <div class="row gx-0" id="blabla">
                 </div>
             </div>
         </section>
@@ -110,10 +112,10 @@
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://github.com/MaduMunoz"><i class="icon-social-facebook"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://github.com/MaduMunoz"><i class="icon-social-twitter"></i></a>
                     </li>
                     <li class="list-inline-item">
                         <a class="social-link rounded-circle text-white" href="https://github.com/MaduMunoz/DNMedios-clase13/tree/main"><i class="icon-social-github"></i></a>
@@ -148,7 +150,7 @@
             ];
 
             datos.forEach((d, i) => {
-                document.getElementById("usuario").innerHTML +=
+                document.getElementById("blabla").innerHTML +=
                     '<div class="col-lg-6"><a class="portfolio-item" href="#!"><div class="caption"><div class="caption-content"><div class="h2">' + d.soporte + '</div><p class="mb-0">' + d.nombre + '</p></div></div><img class="img-fluid" src="' + d.imagen + '" alt="..." /></a></div>';
             });
 
