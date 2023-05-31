@@ -42,7 +42,7 @@
             <div class="container px-4 px-lg-5 text-center">
                 <h1 class="mb-1 text-white">Portafolio Madu Muñoz</h1>
                 <h3 class="mb-5 text-white"><em>Estudiante de diseño integral.</em></h3>
-                <a class="btn btn-xl" style="background: #92A675; color: white;" href="#about">Descubre más</a>
+                <a class="btn btn-xl" style="background: #92A675; color: white;" href="#services">Descubre más</a>
             </div>
         </header>
         <!--SVG -->
@@ -100,7 +100,7 @@
                     <h3 class="mb-0 text-black">Portfolio</h3>
                     <h2 class="mb-5">Algunos proyectos:</h2>
                 </div>
-                <div class="row" id="usuarios">
+                <div class="row gx-0" id="usuario">
                 </div>
             </div>
         </section>
@@ -122,6 +122,39 @@
                 <p class="text-muted small mb-0">Evaluación n°3 - Diseño y Nuevos Medios 2023 | Magdalena Muñoz</p>
             </div>
         </footer>
+
+        <script type="text/javascript">
+            const datos = [ //traté de hacerlo con fetch y no me funcionó así que aquí estamos 
+                {
+                    imagen: "img/imagenes-02.png",
+                    nombre: "Láminas exámen",
+                    soporte: "informacion",
+                },
+                {
+                    imagen: "img/imagenes-03.png",
+                    nombre: "Conference of Youth 15 | COY15",
+                    soporte: "marca",
+                },
+                {
+                    imagen: "img/imagenes-01.png",
+                    nombre: "Afiches universitarios",
+                    soporte: "editorial",
+                },
+                {
+                    imagen: "img/imagenes-04.png",
+                    nombre: "GudFud",
+                    soporte: "grafico",
+                },
+            ];
+
+            datos.forEach((d, i) => {
+                document.getElementById("usuario").innerHTML +=
+                    '<div class="col-lg-6"><a class="portfolio-item" href="#!"><div class="caption"><div class="caption-content"><div class="h2">' + d.soporte + '</div><p class="mb-0">' + d.nombre + '</p></div></div><img class="img-fluid" src="' + d.imagen + '" alt="..." /></a></div>';
+            });
+
+
+        </script>
+
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
         <!-- Bootstrap core JS-->
@@ -129,21 +162,5 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
 
-        <script>
-            async function portafolio() {
-                const consulta = await fetch("https://raw.githubusercontent.com/MaduMunoz/DNMedios-clase13/main/datos.json"); //espera a que carguen los datos
-                const data = await consulta.json(); //indica que esto lo tiene que entender como un json
-                const resultados = data.results;
-
-                console.log(resultados);
-
-                resultados.forEach(function (t, i) {
-                document.getElementById("usuarios").innerHTML +=
-                    '<div class="col-lg-6"><a class="portfolio-item" href="#!"><div class="caption"><div class="caption-content"><div class="h2">Strawberries</div><p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p></div></div><img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." /></a></div>';
-                });
-            }
-            portafolio().catch((error) => console.error(error));
-
-        </script>
     </body>
 </html>
